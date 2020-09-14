@@ -1,0 +1,233 @@
+@media only screen and (max-width:1200px) {
+    .mainmenu li {
+        display: inline-block;
+        padding: 0 7px;
+    }
+    .banner .bannerContent {
+        padding-left: 15px;
+    }
+    .banner .bannerContent .editor {
+        width: 90%;
+    }
+    .features .fbg {
+        height: 450px !important;
+        left: 30px;
+    }
+    .features .featwrap .fbox .fcontent {
+        padding-right: 0;
+    }
+    .ultimateFeatures .uFImage img {
+        height: 513px;
+    }
+    .ultimateFeatures .fbg {
+        height: 450px !important;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .banner .bannerContent {
+        padding-left: 0px;
+    }
+    .banner .bannerContent .editor {
+        width: 100%;
+        font-size: 13px;
+    }
+    .features .fImage img {
+        height: 600px;
+        display: inline-block;
+    }
+    .features .fImage {
+        position: relative;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .features .fbg {
+        height: 650px !important;
+        left: 30px;
+        top: 0;
+    }
+    .features .featwrap .fbox .icon {
+        top: 0;
+    }
+    .jackpot .jtitle {
+        color: #242f51;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 35px;
+    }
+    .jackpot .jtext {
+        color: #616368;
+        border-left: 1px solid #cccccc;
+        padding: 0px 0 0px 50px;
+    }
+    .buildBy .buildContent h2 {
+        font-size: 28px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .subText {
+        width: 80%;
+    }
+    .ultimateFeatures .uFImage {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .ultimateFeatures .uFImage img {
+        display: inline-block;
+    }
+    .ultimateFeatures .fbg {
+        height: 550px !important;
+        left: 70px;
+        top: -15px;
+    }
+    .priceTable {
+        width: 270px;
+    }
+    .priceTable2 {
+        margin-bottom: 50px;
+    }
+}
+
+
+@media only screen and (max-width:991px)  {
+    .banner {
+        height: auto;
+    }
+    .banner .bannerImage {
+        margin-top: 40px;
+    }
+    .features .fbg {
+        height: 500px !important;
+        left: 0;
+        top: 10%;
+    }
+    .titlev2 br {
+        display: none;
+    }
+    .jackpot .jtitle {
+        padding-bottom: 30px;
+    }
+    .jackpot .jtitle br {
+        display: none;
+    }
+    .jackpot .jtext {
+        border-top: 1px solid #cccccc;
+        padding: 30px 0 0px 0px;
+        border-left: 0;
+    }
+    .jackpot .jtext br {
+        display: none;
+    }
+    .buildBy .buildImage {
+        margin-bottom: 40px;
+    }
+    .buildBy .buildContent h2 br {
+        display: none;
+    }
+    .title br {
+        display: none;
+    }
+    .subText {
+        width: 100%;
+    }
+    .ultimateFeatures .fbg {
+        height: 100% !important;
+        left: 15px;
+        top: -15px;
+    }
+    .priceTable {
+        width: 90%;
+    }
+    .faq .faqwrap {
+        width: 100%;
+    }
+    .faqwrap .panel-title a {
+        font-size: 16px;
+    }
+    .download {
+        text-align: center;
+        background-image: none;
+    }
+    .mobileMenu {
+        display: inline-block;
+        right: 15px;
+        top: 5px;
+    }
+    .menuwrapper {     
+        display: none;
+        padding-top: 11px;
+        margin: 0;
+        border: 0;
+        text-align: left;
+        width: 60%;
+        position: fixed;
+        z-index: 99999;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        padding: 20px;
+        background: #000000;
+        padding-top: 40px;
+    }
+    .mainmenu li {
+        list-style-type: none;
+        display: block;
+        padding: 15px 15px;
+    }
+    .mainmenu li a {
+        color: #ffffff;
+    }
+    .tryforfree a {
+        width: 100%;
+    }
+    .menuclose {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .banner .bannerContent h1 {
+        font-size: 36px;
+    }
+    .banner .bannerContent h1 br {
+        display: none;
+    }
+    .bannerContent , 
+    .buildBy .buildImage {
+        text-align: center;
+    }
+    .clients .itemWrap img {
+        height: auto;
+    }
+    .features .fbg {
+        height: 80% !important;
+        left: 0;
+        top: 10%;
+    }
+    .features .fImage img {
+        height: 500px;
+        display: inline-block;
+    }
+    .buildBy .buildImage img {
+        height: 80%;
+        width: 80%;
+        display: inline-block;
+    }
+    .ultimateFeatures .uFImage img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+    .ultimateFeatures .fbg {
+        height: 80% !important;
+        left: 0;
+        top: 10%;
+    }
+    .footerMenu li {
+        display: block;
+        padding: 10px 15px;
+    }
+}
